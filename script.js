@@ -11,7 +11,7 @@ function rollTasks() {
     // console.log(h);
     if (!rolled.includes(h)) {
       rolled.push(h);
-      display = display + (h + 1) + ": " + tasks[h] + " " + descriptions[h] + "<br />";
+      display = display + (h + 1) + ": " + tasks[h] + " " + descriptions[h] + "\n";
       //console.log(display);
     }
   }
@@ -46,6 +46,7 @@ function board() {
     clip += assembleTasks(rolled[i], document.getElementById("bold").checked, document.getElementById("italic").checked, document.getElementById("numbers").checked, document.getElementById("desc").checked)
   }
   console.log(clip);
+  document.getElementById("boardresults").textContent = clip;
   return clip;
 }
 //hurgle
