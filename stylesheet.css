@@ -1,3 +1,25 @@
+/* Start https://www.cursors-4u.com */
+* {
+	cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur1.png), auto !important;
+} 
+/* End https://www.cursors-4u.com */
+
+html, body{
+    
+    color:white;
+    margin: 0;
+    height: 100%; 
+}
+
+
+
+
+background { 
+  background-repeat:repeat;
+    
+} 
+
 h1{
 color:red;
 }
+
